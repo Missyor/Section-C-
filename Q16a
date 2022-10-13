@@ -1,0 +1,9 @@
+num1 = 5
+num2 = 9
+
+print("Do you wabnt to (a)dd or (s)ubtract?")
+choice = input()
+if choice == "a":
+  print(num1 + num2)
+ elif choice == "s":
+  print(num1 - num2)
